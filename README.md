@@ -12,7 +12,7 @@ pkg update && pkg install wget
 ```
 Wait for the proccess to finish then run:
 ```
-wget https://github.com/AmarKherala/debs/blob/master/setup.sh && chmod +x setup.sh && ./setup.sh
+wget https://github.com/AmarKherala/termux-sideload/releases/download/script/setup.sh && chmod +x setup.sh && ./setup.sh
 ```
 
 You should now have every package needed to procced with the sideloading proccess.
