@@ -26,3 +26,7 @@ You should now have every package needed to procced with the sideloading procces
 wget https://github.com/SideStore/SideStore/releases/download/0.6.2/SideStore.ipa && sideloader install SideStore.ipa -i
 ```
 It will ask you for your Apple ID and password, enter them and the ipa will start installing on your iDevive.
+
+Once thats done you can choose one of the two paths:
+- [Sideload only amethyst and stikdebug](aamconly.md)
+- [Sideload LiveContainer and stikdebug](lc.md)
