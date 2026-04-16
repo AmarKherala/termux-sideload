@@ -16,3 +16,13 @@ wget https://github.com/AmarKherala/debs/blob/master/setup.sh && chmod +x setup.
 ```
 
 You should now have every package needed to procced with the sideloading proccess.
+
+### Sideloading sidestore:
+
+1. Connect your phone with the iDevice using any cable you got, open termux and run ``usbmuxd &``. If it the iDevice shows a popup asking for permission click ``trust`` or whatever it says to give it perms. Now it should say something like **usbmuxd running. Click Ctrl+c to stop**.
+
+2. Now you can sideload! grab the sidestore ipa by running:
+```
+wget https://github.com/SideStore/SideStore/releases/download/0.6.2/SideStore.ipa && sideloader install SideStore.ipa -i
+```
+It will ask you for your Apple ID and password, enter them and the ipa will start installing on your iDevive.
