@@ -6,7 +6,7 @@
 ### Setting up your android device:
 Simply. Install both [termux](https://github.com/termux/termux-app) and [termux-api](https://github.com/termux/termux-api), YOU NEED TO INSTALL BOTH.
 
-After you have installed termux, run this command:
+After you have installed termux, run this command on Termux:
 ```
 pkg update && pkg install wget
 ```
