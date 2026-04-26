@@ -20,7 +20,7 @@ You should now have every package needed to procced with the sideloading procces
 
 ### Sideloading sidestore:
 
-1. Connect your phone with the iDevice using any cable you got, open termux and run ``usbmuxd &``. If it the iDevice shows a popup asking for permission click ``trust`` or whatever it says to give it perms. Now it should say something like **usbmuxd running. Click Ctrl+c to stop**.
+1. Connect your phone with the iDevice using any cable you got, open termux and run ``usbmuxd``. If it the iDevice shows a popup asking for permission click ``trust`` or whatever it says to give it perms. Now it should say something like **usbmuxd running. Click Ctrl+c to stop**.
 
 2. Now you can sideload! grab the sidestore ipa by running:
 ```
