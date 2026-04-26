@@ -4,9 +4,10 @@
 - An USBC to Lighting cable or an USBC to USBC cable (just find a way to connect the devices goddamit)
 
 ### Setting up your android device:
-Simply. Install both [termux](https://github.com/termux/termux-app) and [termux-api](https://github.com/termux/termux-api), YOU NEED TO INSTALL BOTH.
+Simply. Install both [termux](https://github.com/termux/termux-app/releases/download/v0.118.3/termux-app_v0.118.3+github-debug_arm64-v8a.apk) and [termux-api](https://github.com/termux/termux-api/releases/download/v0.53.0/termux-api-app_v0.53.0+github.debug.apk) like any other normal Android APK, YOU NEED TO INSTALL BOTH FROM THE SAME LINKS PROVIDED ABOVE.
 
-After you have installed termux, run this command:
+Install termux-api apk, open it and give it the permissions it needs (ignore batyery optimizations) and (draw over other apps), then install termux.
+After you have installed termux, open it, then run this command inside termux:
 ```
 pkg update && pkg install wget
 ```
